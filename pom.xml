@@ -22,4 +22,22 @@
             <version>9.0.0</version>
         </dependency>
     </dependencies>
+
+    <build>
+        <plugins>
+            <!-- Make JAR executable by specifying Main-Class -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.localMySQLDemo.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
