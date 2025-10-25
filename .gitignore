@@ -1,0 +1,62 @@
+# =====================================
+# Local environment files
+# =====================================
+.env                   # local database credentials
+*.local.properties     # optional for other local configs
+
+# =====================================
+# Maven / Java build outputs
+# =====================================
+target/                # Maven compiled output
+build/                 # Gradle (if ever used)
+*.class                # compiled Java classes
+*.jar                  # compiled JARs
+
+# =====================================
+# Maven wrapper (keep the jar, ignore others)
+# =====================================
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+
+# =====================================
+# IntelliJ IDEA
+# =====================================
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# =====================================
+# Eclipse
+# =====================================
+.classpath
+.project
+.settings/
+.factorypath
+
+# =====================================
+# NetBeans
+# =====================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# =====================================
+# VS Code
+# =====================================
+.vscode/
+
+# =====================================
+# OS-specific
+# =====================================
+.DS_Store
+Thumbs.db
+
+# =====================================
+# Optional: logs and temporary files
+# =====================================
+*.log
+*.tmp
